@@ -164,28 +164,4 @@ Docker support
 Sumit Gupta
 GitHub: https://github.com/SumitGupta-ai
 
-⭐ Support
 
-Agar project pasand aaye to:
-
-⭐ Star repository
-
-🍴 Fork
-
-🧠 Use for learning
-
-⚠️ Disclaimer
-
-This project is for educational purposes only.
-Real-time flight pricing is not guaranteed.
-
-✅ END
-🔥 NEXT STEP
-
-GitHub → README.md
-
-Edit → Paste → Commit
-
-Batao jab ho jaye
-
-Uske baad hum Render deployment ekdum smooth kara denge 😎
