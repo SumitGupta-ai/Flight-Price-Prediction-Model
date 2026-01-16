@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = joblib.load("model/Flight_Price_Prediction.pkl")
+model = joblib.load("Flight_Price_Prediction.pkl")
 @app.route("/", methods=["GET", "POST"])
 def home():
     prediction = None
