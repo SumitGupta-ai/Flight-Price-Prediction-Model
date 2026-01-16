@@ -1,167 +1,194 @@
-✈️ Flight Price Prediction Web App
-📌 Project Description
+# ✈️ Flight Price Prediction Web Application
 
-Flight Price Prediction Web Application ek end-to-end Machine Learning + Flask based project hai jo user ke input ke basis par flight ticket price predict karta hai.
+---
 
-Ye project ML + Web dono ko combine karta hai aur real-world deployment ready hai.
+## 📌 Project Overview
 
-🚀 Project Overview
+The **Flight Price Prediction Web Application** is an end-to-end Machine Learning project that predicts flight ticket prices based on user inputs such as **source city, destination city, number of stops, journey duration, airline, and travel date**.
 
-Machine Learning model trained & saved
+The project integrates **Machine Learning**, **Flask backend**, and **HTML/CSS frontend**, and is **fully deployed on Render** for real-time usage.
 
-Flask backend
+---
 
-HTML/CSS frontend
+## 🌐 Live Demo 
 
-User-friendly form
+🔗 **Deployed Application:**
+https://flight-price-prediction-model.onrender.com/
 
-Deployment ready structure
+---
 
-🧠 Machine Learning Details
+## 🧠 Machine Learning Model
 
-Model Used: XGBoost Regressor
+* **Algorithm Used:** XGBoost Regressor
+* **Problem Type:** Regression
+* **Target Variable:** Flight Price
+* **Training Platform:** Jupyter Notebook
 
-Preprocessing Techniques:
+### 🔹 Features Used
 
-OneHotEncoder (categorical features)
+* Airline
+* Source City
+* Destination City
+* Number of Stops (Non-stop, 1 stop, 2 stops, 2+ stops)
+* Journey Duration (e.g. `2.25` hours format)
+* Date of Journey
 
-OrdinalEncoder
+---
 
-StandardScaler
+## 🛠️ Tech Stack
 
-Model File: Flight_Price_Prediction.pkl
+### 🔹 Programming & ML
 
-Libraries: scikit-learn, xgboost, pandas, numpy
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* XGBoost
+* Joblib
 
-🖥️ Web Application Features
+### 🔹 Backend
 
-Clean & professional UI
+* Flask
+* Gunicorn
 
-Same source & destination city not allowed
+### 🔹 Frontend
 
-Stops handled properly:
+* HTML5
+* CSS3
+* Bootstrap
 
-zero
+### 🔹 Deployment
 
-one
+* Render (Cloud Platform)
+* Git & GitHub
 
-two_more
+---
 
-Duration format supported: 2.25
+## 🎯 Key Features
 
-Instant price prediction
+* ✅ Real-time flight price prediction
+* ✅ User-friendly web interface
+* ✅ Input validation (same source & destination not allowed)
+* ✅ Robust handling of categorical values
+* ✅ Production-ready Flask application
+* ✅ Deployed on cloud (Render)
 
-📂 Project Structure
-Flight Price Prediction/
+---
+
+## 📂 Project Structure
+
+```
+Flight-Price-Prediction-Model/
 │
 ├── app.py
-├── Flight_Price_Prediction.pkl
+├── Flight-price-pred.ipynb
 ├── requirements.txt
 ├── README.md
+│
+├── model/
+│   └── Flight_Price_Prediction.pkl
 │
 ├── templates/
 │   └── index.html
 │
 ├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── images/
+│   └── style.css
 │
-└── notebooks/
-    └── model_training.ipynb
+└── runtime.txt
+```
 
-⚙️ Installation & Setup (Local)
-1️⃣ Clone Repository
-git clone https://github.com/SumitGupta-ai/Flight-Price-Prediction-Model.git
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/Flight-Price-Prediction-Model.git
 cd Flight-Price-Prediction-Model
+```
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create virtual environment & activate
+
+```bash
 python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
+### 3️⃣ Install dependencies
 
-Activate:
-
-Windows
-
-venv\Scripts\activate
-
-
-Mac / Linux
-
-source venv/bin/activate
-
-3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run Flask App
+### 4️⃣ Run the Flask app
+
+```bash
 python app.py
+```
 
-5️⃣ Open Browser
+### 5️⃣ Open in browser
+
+```
 http://127.0.0.1:5000/
+```
 
-🌐 Deployment
+---
 
-Ye project Render / Railway / AWS pe deploy ho sakta hai.
+## 📊 Model Training
 
-Gunicorn command:
+The model was trained in **Jupyter Notebook**, including:
 
-gunicorn app:app
+* Data cleaning
+* Feature engineering
+* Handling categorical variables
+* Model training & evaluation
+* Model serialization using `joblib`
 
-🛠️ Technologies Used
+The trained model is stored as:
 
-Python
+```
+model/Flight_Price_Prediction.pkl
+```
 
-Flask
+---
 
-HTML / CSS
+## ⚠️ Validation & Error Handling
 
-Scikit-learn
+* ❌ Same source and destination city not allowed
+* ❌ Invalid stop selection handled safely
+* ❌ Unseen categories prevented during prediction
 
-XGBoost
+---
 
-Pandas
+## 📈 Future Improvements
 
-NumPy
+* Add more airlines and routes
+* Improve UI with JavaScript
+* Add API endpoint support
+* Dockerize application
+* Deploy on AWS / GCP
 
-Joblib
+---
 
-Gunicorn
+## 👨‍💻 Author
 
-📊 Input Features
+**Sumit Gupta**
+Machine Learning Enthusiast | Python Developer
 
-Airline
+🔗 GitHub: https://github.com/SumitGupta-ai
 
-Source City
+---
 
-Destination City
+## ⭐ Acknowledgements
 
-Departure Time
+* Kaggle (Dataset inspiration)
+* Scikit-learn & XGBoost community
+* Render platform for deployment
 
-Arrival Time
+---
 
-Stops
+⭐ **If you like this project, give it a star!**
 
-Class
-
-Duration
-
-Days Left
-
-📌 Future Improvements
-
-Authentication system
-
-Better UI (Bootstrap / React)
-
-Live flight data API
-
-Model optimization
-
-Docker support
-
-👨‍💻 Author
-
-Sumit Gupta
-GitHub: https://github.com/SumitGupta-ai
 
 
