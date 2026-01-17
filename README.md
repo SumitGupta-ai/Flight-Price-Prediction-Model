@@ -174,7 +174,7 @@ model/Flight_Price_Prediction.pkl
 ## 👨‍💻 Author
 
 **Sumit Gupta**
-Machine Learning Enthusiast | Python Developer
+Machine Learning Enthusiast |
 
 🔗 GitHub: https://github.com/SumitGupta-ai
 
