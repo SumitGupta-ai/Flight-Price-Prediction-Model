@@ -6,7 +6,7 @@
 
 The **Flight Price Prediction Web Application** is an end-to-end Machine Learning project that predicts flight ticket prices based on user inputs such as **source city, destination city, number of stops, journey duration, airline, and travel date**.
 
-The project integrates **Machine Learning**, **Flask backend**, and **HTML/CSS frontend**, and is **fully deployed on Render** for real-time usage.
+The project integrates **Machine Learning**, **Flask backend**, and **HTML/CSS frontend**, and is **fully deployed on Render** for real-time usage
 
 ---
 
