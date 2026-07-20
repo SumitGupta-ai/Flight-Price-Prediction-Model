@@ -10,7 +10,7 @@ The project integrates **Machine Learning**, **Flask backend**, and **HTML/CSS f
 
 ---
 
-## 🌐 Live Demo s
+## 🌐 Live Demos
 
 🔗 **Deployed Application:**
 https://flight-price-prediction-model.onrender.com/
