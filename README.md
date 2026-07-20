@@ -1,7 +1,6 @@
 # ✈️ Flight Price Prediction Web Application
 
 ---
-
 ## 📌 Project Overview
 
 The **Flight Price Prediction Web Application** is an end-to-end Machine Learning project that predicts flight ticket prices based on user inputs such as **source city, destination city, number of stops, journey duration, airline, and travel date**.
