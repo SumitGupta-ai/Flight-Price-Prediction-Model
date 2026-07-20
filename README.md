@@ -17,7 +17,7 @@ https://flight-price-prediction-model.onrender.com/
 
 ---
 
-## 🧠 Machine Learning Model
+## 🧠 Machine Learning Models
 
 * **Algorithm Used:** XGBoost Regressor
 * **Problem Type:** Regression
